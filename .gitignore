@@ -1,8 +1,19 @@
-node_modules/
-test-results/
-playwright-report/
+# Node
+playwright-tests/node_modules/
+playwright-tests/test-results/
+playwright-tests/playwright-report/
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Secrets
+backend/.env
 .env
 .env.*
-*.log
+
+# System
 .DS_Store
 .idea/
+*.log
